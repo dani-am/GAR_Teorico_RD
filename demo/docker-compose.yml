@@ -1,0 +1,29 @@
+version: "3"
+services:
+  haproxy:
+    build: .
+    ports:
+      - "8080:8080"
+    networks:
+      - frontend_network
+      - backend_network
+
+  frontend:
+    image: nginx
+    networks:
+      - frontend_network
+
+  backend1:
+    image: httpd
+    networks:
+      - backend_network
+
+  backend2:
+    image: httpd
+    networks:
+      - backend_network
+
+networks:
+  frontend_network:
+  backend_network:
+
