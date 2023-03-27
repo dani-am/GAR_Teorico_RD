@@ -1,0 +1,14 @@
+1. ¿En qué consiste el balanceo de carga?
+https://www.redeszone.net/tutoriales/servidores/balanceador-carga-load-balancer-que-es-funcionamiento/
+
+2. Como funciona HAProxy
+https://www.redeszone.net/2014/10/25/haproxy-un-balanceador-de-cargas-tcphttp-gratuito/
+
+3. Configuración HAProxy sencillo para páginas web propias
+https://www.youtube.com/watch?v=twCmZfSSWwc
+
+4. HAProxy vs su competencia, Nginx 
+Nginx vs HAProxy --> https://cloudinfrastructureservices.co.uk/haproxy-vs-nginx-whats-the-difference/
+
+5. Balanceadores de carga vs Proxys
+https://cloudinfrastructureservices.co.uk/reverse-proxy-vs-load-balancer-whats-the-difference/
